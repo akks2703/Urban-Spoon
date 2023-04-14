@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reservation Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reservation.css">
+    </head>
+    <body>
+        
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <section class = "banner">
+            
+            <div class = "card-container">
+
+                <div class = "card-content">
+                    <h3>Reservation</h3>
+                    <form id="form" class="form" action="reservation">
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Full Name" id="name"  name="name" required>
+                            <input type = "text" placeholder="Phone Number" id="mobile" name="mobile" required>
+                        </div>
+                        <div class = "form-row">
+                            <input type="date" placeholder="Date" id="date" name="date">
+                            <input type="time" placeholder="Time" id="time" name="time">
+                        </div>
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many Persons?" min = "1" name="persons" id="persons">
+                        </div>
+                        
+                          <center> <button type="submit" value="BOOK TABLE" >BOOK TABLE</button></center>
+                           
+                     
+                    
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>
